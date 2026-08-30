@@ -190,15 +190,91 @@ h1, h2, h3, h4, h5, h6, p{
 }
 /* ==========banner end======= */
 
-/* ==========navbar start======= */
-.xyz{
+/* ==========counter start======= */
+#counter{
     background-color: #201353;
-    height: 1000px;
+    padding-top: 522px;
+    padding-bottom: 32px;
 }
-/* ==========navbar end======= */
+.counter_wrapper{
+    padding: 48px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter_item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translate( 64px,-50%);
+    height: 32px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+.counter_item:last-child::after{
+    background-color: transparent;
+}
+.counter_item .count_number{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.counter_item .count_title{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.64);;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.counter_item:last-child{
+    justify-content: end;
+}
+.counter_item:first-child{
+    justify-content: start;
+}
+/* ==========counter end======= */
 
-/* ==========navbar start======= */
-/* ==========navbar end======= */
+/* ==========feature start======= */
+#feature{
+    background-color: #201353;
+    padding: 100px 0;
+}
+.feature_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feature_heading h2{
+    color: #fff;
+    font-size: 52px;
+    line-height: normal;
+    font-weight: 700;
+    max-width: 514px;
+    text-transform: capitalize;
+}
+.feature_heading p{
+    max-width: 555px;
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.feature_wrapper .transaction{
+    width: 368px;
+    border-radius: ;
+}
+/* ==========feature end======= */
 
 /* ==========navbar start======= */
 /* ==========navbar end======= */
