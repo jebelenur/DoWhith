@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* ==========feature start======= */
 #feature{
     background-color: #201353;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 .feature_heading{
     display: flex;
@@ -269,14 +269,110 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: 500;
     font-size: 18px;
     margin-top: 18px;
+    line-height: normal;
+}
+.feature_main{
+    margin-top: 48px;
+    position: relative;
+}
+.feature_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 100px;
+}
+.feature_img{
+    position: absolute;
+    bottom: -4px;
+    right: -5%;
 }
 .feature_wrapper .transaction{
     width: 368px;
-    border-radius: ;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 24px;
+}
+.transaction .transaction_heading{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.transaction_heading h4{
+    color: var(--tertiary);
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+}
+.transaction p{
+    margin-top: 20px;
+    color: #848FAC;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+}
+.transaction .progress{
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 24px;
+    background-color: #EFF3FA;
+    position: relative;
+    overflow: hidden;
+}
+.transaction .progress::after{
+    position: absolute;
+    content: "";
+    background-color: var(--primary);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 55%;
+    border-radius: 2px;
+}
+.feature_wrapper .history{
+    width: 368px;
+    border: 1px solid var(--primary);
+    border-radius: 16px;
+    padding: 24px;
+}
+.history .history_heading{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.history_heading h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+.skeleton1{
+    margin-top: 20px;
+    width: 307px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.skeleton2{
+    margin-top: 10px;
+    width: 287px;
+    height: 16px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.skeleton3{
+    margin-top: 26px;
+    width: 320px;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.15); 
 }
 /* ==========feature end======= */
 
 /* ==========navbar start======= */
+#video{
+    height: 100px;
+}
 /* ==========navbar end======= */
 
 /* ==========navbar start======= */
