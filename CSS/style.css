@@ -369,11 +369,71 @@ h1, h2, h3, h4, h5, h6, p{
 }
 /* ==========feature end======= */
 
-/* ==========navbar start======= */
+/* ========video start======= */
 #video{
-    height: 100px;
+    padding: 132px 0 140px 0;
 }
-/* ==========navbar end======= */
+.video_wrapper{
+    display: flex;
+    gap: 126px;
+    align-items: center;
+}
+.video_box{
+    width: 600px;
+    height: 600px;
+    border-radius: 24px;
+    background-color: #F7F7F7;
+    overflow: hidden;
+    position: relative;
+}
+.video_box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ply_btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.video_details{
+    width: 514px;
+}
+.video_details .video_title{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--tertiary);
+}
+.video_details p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #848FAC;
+    line-height: 150%;
+    max-width: 421px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.video_list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.video_list li{
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+.video_list li span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--tertiary);
+    line-height: normal;
+    text-transform: capitalize;
+}
+/* ========video end======= */
 
 /* ==========navbar start======= */
 /* ==========navbar end======= */
