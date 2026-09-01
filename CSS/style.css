@@ -435,8 +435,32 @@ h1, h2, h3, h4, h5, h6, p{
 }
 /* ========video end======= */
 
-/* ==========navbar start======= */
-/* ==========navbar end======= */
+/* ==========brand start======= */
+#brand{
+    padding-bottom: 62px;
+}
+#brand .brand_heading{
+    line-height: 150%;
+    font-weight: 500;
+    color: #848FAC;
+    font-size: 24px;
+    text-align: center;
+}
+.brand_wrapper{
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+}
+.brand_wrapper .brand_item{
+    width: 208px;
+    text-align: center;
+}
+.brand_wrapper .brand_item img{
+    width: 60%;
+
+}
+/* ==========brand end======= */
 
 /* ==========navbar start======= */
 /* ==========navbar end======= */
