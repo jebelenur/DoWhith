@@ -3,6 +3,7 @@
     .container{
         padding: 0 16px;
     }
+    /* ====navbar====== */
     #navbar .navbtn{
         display: none;
     }
@@ -25,11 +26,54 @@
     .nav_toggle .togglebutton:hover{
         color: var(--primary);
     }
+
+    /* =====banner===== */
     .banner_img{
         display: none;
     }
-    .banner_bigimg{
+    .banner_bigimg {
+        height: 400px;
+        border: none;
+        bottom: -50%;
+        transform: translateY(50%);
+    }
+    .banner_bigimg img{
+        width: 100%;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+    }
+    .shape2 img{
+        top: 0;
+    }
+    .shape3 img{
         display: none;
+    }
+    .banner_wrapper {
+        padding-top: 100px;
+        padding-bottom: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_desc{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner_desc h1 {
+        text-align: center;
+        font-size: 70px;
+    }
+    .banner_desc p {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    /* =====counter===== */
+    #counter {
+        background-color: #201353;
+        padding-top: 522px;
+        padding-bottom: 32px;
     }
 }
 /* =========EXTRA SMALL END======= */
@@ -39,6 +83,7 @@
     .container{
         padding: 0 20px;
     }
+    /* =====navbar====== */
     #navbar .navbtn{
         display: none;
     }
@@ -61,11 +106,54 @@
     .nav_toggle .togglebutton:hover{
         color: var(--primary);
     }
+    /* =====banner===== */
+    .banner_img{
+        display: none;
+    }
+    .banner_bigimg {
+        height: 400px;
+        border: none;
+        bottom: -50%;
+        transform: translateY(50%);
+    }
+    .banner_bigimg img{
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+    .shape2 img{
+        top: 0;
+    }
+    .shape3 img{
+        display: none;
+    }
+    .banner_wrapper {
+        padding-top: 100px;
+        padding-bottom: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_desc{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner_desc h1 {
+        text-align: center;
+        font-size: 70px;
+    }
+    .banner_desc p {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
 }
 /* =========SMALL END======= */
 
 /* =========MEDIUM START======= */
 @media (min-width: 768px) and (max-width: 991.99px){
+    /* ======navbar======= */
     .container{
         padding: 0 20px;
     }
@@ -91,6 +179,49 @@
     .nav_toggle .togglebutton:hover{
         color: var(--primary);
     }
+    /* =====banner===== */
+    .banner_img{
+        display: none;
+    }
+    .banner_bigimg {
+        height: 400px;
+        border: none;
+        bottom: -50%;
+        transform: translateY(50%);
+    }
+    .banner_bigimg img{
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+    }
+    .shape2 img{
+        top: 0;
+    }
+    .shape3 img{
+        display: none;
+    }
+    .banner_wrapper {
+        padding-top: 100px;
+        padding-bottom: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_desc{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .banner_desc h1 {
+        text-align: center;
+        font-size: 80px;
+    }
+    .banner_desc p {
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
 }
 /* =========MEDIUM END======= */
 
@@ -102,6 +233,19 @@
     .navbtn a{
         padding: 14px 32px;
     }
+    .banner_img {
+        left: 0;
+        width: 50%;
+    }
+    .banner_desc{
+        width: 45%;
+    }
+    .banner_img img{
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
 }
 /* =========LARGE END======= */
 
@@ -109,6 +253,19 @@
 @media (min-width: 1200px) and (max-width: 1399.99px){
     .container{
         padding: 0 20px;
+    }
+    .banner_img {
+        left: 0;
+        width: 50%;
+    }
+    .banner_desc{
+        width: 45%;
+    }
+    .banner_img img{
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: auto;
     }
 }
 /* =========EXTRA LARGE END======= */

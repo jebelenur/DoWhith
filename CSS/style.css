@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 683px;
     left: 50px;
 }
-banner_img img{
+.banner_img img{
     width: 100%;
     height: auto;
     display: block;
