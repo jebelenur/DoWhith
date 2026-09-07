@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
 }
+body{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -14,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 0.8;
 }
 .container{
-    width: 1240px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 :root{
@@ -36,6 +39,7 @@ h1, h2, h3, h4, h5, h6, p{
 .nav_wrapper{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .logo{
     width: 20%;
@@ -78,6 +82,9 @@ h1, h2, h3, h4, h5, h6, p{
 .navbtn a:hover{
     background-color: #fff;
     color: var(--primary);
+}
+.nav_toggle{
+    display: none;
 }
 /* ==========navbar end======= */
 
@@ -162,10 +169,15 @@ h1, h2, h3, h4, h5, h6, p{
     color: #fff;
 }
 .banner_img{
-    width: 683px;
     position: relative;
-    left: 40px;
     z-index: 999;
+    width: 683px;
+    left: 50px;
+}
+banner_img img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .banner_bigimg_box{
     position: relative;
@@ -270,6 +282,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .feature_main{
     margin-top: 48px;
+    display: flex;
+    gap: 185px;
     position: relative;
 }
 .feature_wrapper{
@@ -279,9 +293,10 @@ h1, h2, h3, h4, h5, h6, p{
     padding-bottom: 100px;
 }
 .feature_img{
+    width: 731px;
     position: absolute;
-    bottom: -4px;
-    right: -5%;
+    right: -35px;
+    bottom: -3px;
 }
 .feature_wrapper .transaction{
     width: 368px;

@@ -1,0 +1,114 @@
+/* =========EXTRA SMALL START======= */
+@media (max-width: 575.99px) {
+    .container{
+        padding: 0 16px;
+    }
+    #navbar .navbtn{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    #navbar {
+        padding: 9px 0;
+    }
+    .nav_toggle{
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+    .nav_toggle .togglebutton{
+        font-size: 25px;
+        cursor: pointer;
+        transition: all linear 0.3s;
+    }
+    .nav_toggle .togglebutton:hover{
+        color: var(--primary);
+    }
+    .banner_img{
+        display: none;
+    }
+    .banner_bigimg{
+        display: none;
+    }
+}
+/* =========EXTRA SMALL END======= */
+
+/* =========SMALL START======= */
+@media (min-width: 576px) and (max-width: 767.99px){
+    .container{
+        padding: 0 20px;
+    }
+    #navbar .navbtn{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    #navbar {
+        padding: 12px 0;
+    }
+    .nav_toggle{
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+    .nav_toggle .togglebutton{
+        font-size: 25px;
+        cursor: pointer;
+        transition: all linear 0.3s;
+    }
+    .nav_toggle .togglebutton:hover{
+        color: var(--primary);
+    }
+}
+/* =========SMALL END======= */
+
+/* =========MEDIUM START======= */
+@media (min-width: 768px) and (max-width: 991.99px){
+    .container{
+        padding: 0 20px;
+    }
+    #navbar .navbtn{
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    #navbar {
+        padding: 20px 0;
+    }
+    .nav_toggle{
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+    .nav_toggle .togglebutton{
+        font-size: 25px;
+        cursor: pointer;
+        transition: all linear 0.3s;
+    }
+    .nav_toggle .togglebutton:hover{
+        color: var(--primary);
+    }
+}
+/* =========MEDIUM END======= */
+
+/* =========LARGE START======= */
+@media (min-width: 992px) and (max-width: 1199.99px){
+    .container{
+        padding: 0 20px;
+    }
+    .navbtn a{
+        padding: 14px 32px;
+    }
+}
+/* =========LARGE END======= */
+
+/* =========EXTRA LARGE START======= */
+@media (min-width: 1200px) and (max-width: 1399.99px){
+    .container{
+        padding: 0 20px;
+    }
+}
+/* =========EXTRA LARGE END======= */
