@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
 }
-body{
-    overflow-x: hidden;
-}
 a{
     text-decoration: none;
 }
@@ -110,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p{
 .banner_wrapper{
     display: flex; 
     padding-top: 215px;
-    gap: 54px;
+    gap: 94px;
     padding-bottom: 660px;
 }
 .banner_desc{
@@ -170,14 +167,8 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .banner_img{
     position: relative;
-    z-index: 999;
     width: 683px;
-    left: 50px;
-}
-.banner_img img{
-    width: 100%;
-    height: auto;
-    display: block;
+    left: 40px;
 }
 .banner_bigimg_box{
     position: relative;

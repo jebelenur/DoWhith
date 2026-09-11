@@ -71,9 +71,25 @@
     }
     /* =====counter===== */
     #counter {
-        background-color: #201353;
-        padding-top: 522px;
-        padding-bottom: 32px;
+        padding-top: 250px; /* 522 */
+    }
+    .counter_wrapper {
+        padding: 20px;
+    }
+    .counter_item {
+        gap: 2px;
+    }
+    .counter_item .count_number {
+        font-size: 20px;
+    }
+    .counter_item .count_title {
+        font-size: 12px;
+        text-align: center;
+    }
+    .counter_item::after{
+        right: 0;
+        top: 50%;
+        transform: translate(-5px,-50%);
     }
 }
 /* =========EXTRA SMALL END======= */
@@ -148,6 +164,29 @@
         padding-top: 25px;
         padding-bottom: 50px;
     }
+
+    /* =====counter===== */
+    #counter {
+        padding-top: 250px; /* 522 */
+    }
+    .counter_wrapper {
+        padding: 30px;
+    }
+    .counter_item {
+        gap: 3px;
+    }
+    .counter_item .count_number {
+        font-size: 23px;
+    }
+    .counter_item .count_title {
+        font-size: 16px;
+        text-align: center;
+    }
+    .counter_item::after{
+        right: 0;
+        top: 50%;
+        transform: translate(10px,-50%);
+    }
 }
 /* =========SMALL END======= */
 
@@ -184,7 +223,6 @@
         display: none;
     }
     .banner_bigimg {
-        height: 400px;
         border: none;
         bottom: -50%;
         transform: translateY(50%);
@@ -202,7 +240,7 @@
     }
     .banner_wrapper {
         padding-top: 100px;
-        padding-bottom: 350px;
+        padding-bottom: 500px;
         justify-content: center;
         align-items: center;
     }
@@ -221,6 +259,28 @@
         padding-top: 25px;
         padding-bottom: 50px;
         font-size: 20px;
+    }
+
+    /* =====counter===== */
+    #counter {
+        padding-top: 470px; /* 522 */
+    }
+    .counter_wrapper {
+        padding: 48px;
+    }
+    .counter_item {
+        gap: 16px;
+    }
+    .counter_item .count_number {
+        font-size: 38px;
+    }
+    .counter_item .count_title {
+        font-size: 18px;
+    }
+    .counter_item::after{
+        right: 0;
+        top: 50%;
+        transform: translate(-10px, -50%);
     }
 }
 /* =========MEDIUM END======= */
@@ -244,7 +304,12 @@
         position: relative;
         left: 0;
         width: 100%;
-        height: auto;
+    }
+    /* =====counter===== */
+    .counter_item::after{
+        right: 0;
+        top: 50%;
+        transform: translate(-15px, -50%);
     }
 }
 /* =========LARGE END======= */
