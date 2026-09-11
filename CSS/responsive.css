@@ -87,9 +87,7 @@
         text-align: center;
     }
     .counter_item::after{
-        right: 0;
-        top: 50%;
-        transform: translate(-5px,-50%);
+        transform: translate(10px,-50%);
     }
 }
 /* =========EXTRA SMALL END======= */
@@ -173,19 +171,16 @@
         padding: 30px;
     }
     .counter_item {
-        gap: 3px;
+        gap: 10px;
     }
     .counter_item .count_number {
         font-size: 23px;
     }
     .counter_item .count_title {
         font-size: 16px;
-        text-align: center;
     }
     .counter_item::after{
-        right: 0;
-        top: 50%;
-        transform: translate(10px,-50%);
+        transform: translate(5px,-50%);
     }
 }
 /* =========SMALL END======= */
@@ -309,7 +304,7 @@
     .counter_item::after{
         right: 0;
         top: 50%;
-        transform: translate(-15px, -50%);
+        transform: translate(-17px, -50%);
     }
 }
 /* =========LARGE END======= */
