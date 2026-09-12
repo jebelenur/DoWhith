@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, p{
 .banner_wrapper{
     display: flex; 
     padding-top: 215px;
-    gap: 94px;
+    gap: 54px;
     padding-bottom: 660px;
 }
 .banner_desc{
@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5, h6, p{
     position: relative;
     width: 683px;
     left: 40px;
+    overflow-x: hidden;
 }
 .banner_bigimg_box{
     position: relative;
